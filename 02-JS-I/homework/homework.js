@@ -28,7 +28,8 @@ const nuevoModulo = 21 % 5 === null;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return nuevaString;  
+  str = "Hello";
+  return str;  
 }
 
 function suma(x, y) {
@@ -93,6 +94,7 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+
 }
 
 function mayorQueCincuenta(num) {
