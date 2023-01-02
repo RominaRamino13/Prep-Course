@@ -83,9 +83,9 @@ function tienenMismaLongitud(str1, str2) {
   this.str2 = ("Rojo").length;
   
   if(str1 == str2){
-    alert("true");
+    return true;
   } else {
-    alert("false");
+    return false;
   }
 }
 
