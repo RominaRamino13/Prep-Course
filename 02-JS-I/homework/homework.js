@@ -32,8 +32,6 @@ function devolverString(str) {
   return str;  
 }
 
-devolverString("Hello")
-
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
@@ -41,8 +39,6 @@ function suma(x, y) {
   let result = x + y;
   return result;
 }
-
-suma(1,2)
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
@@ -73,9 +69,9 @@ function sonIguales(x, y) {
   this.y = 4;
 
   if (x == y){
-    alert("true");
+    return true;
   } else {
-    alert("false");
+    return false;
   }
 }
 
